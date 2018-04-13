@@ -1,0 +1,63 @@
+h1 {
+  color: black;
+  margin-left: 20px;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+h2,h3 {
+    color: grey;
+    margin-left: 20px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 70%;
+    left: 50%;
+  }
+
+  body {
+    background-color: #f3f2c4;
+    font-family: monospace;
+    color: black;
+}
+p {
+  color: grey;
+  font-family: monospace, serif;
+}
+
+a {
+  color: dimgray;
+  text-decoration: none;
+
+}
+
+a:hover {
+  color: white;
+  transition: 1s;
+}
+
+#top {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 90%;
+  left: 90%;
+}
+
+#work {
+  color: grey;
+  font-size: 60px;
+  margin-left: 20px;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  }
+
+
+
+
+placeholder {
+  border: 5px solid yellow;
+  padding: 5px;
+  color: orange;
