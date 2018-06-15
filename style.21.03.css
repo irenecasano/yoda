@@ -1,5 +1,5 @@
   body {
-    background-color: #d5d3a5;
+    background-color: #d5d4ae;
     font-family: 'Quicksand', sans-serif;
     color: black;
     font-size: 0.8em;
@@ -78,7 +78,7 @@ opacity: 0;
    z-index: 99;
    border: none;
    outline: none;
-   background-color: #d5d3a5;
+   background-color: #d5d4ae;
    color: black;
    padding: 15px;
    border-radius: 10px;
