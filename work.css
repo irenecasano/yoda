@@ -1,0 +1,95 @@
+body {
+  height: 218%;
+}
+
+.foto {
+  max-width:50%;
+  max-height:50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  left: 50%;
+}
+
+.foto:hover {
+  opacity: 0.5;
+  transition: 1s;
+  cursor: pointer;
+  }
+
+.workphoto {
+  position: absolute;
+}
+
+
+
+#x {
+position: fixed;
+font-family: "Quicksand", sans-serif;
+background: url("https://raw.githubusercontent.com/diegocsandrim/sharp-test/master/output1.png");
+style: transparent;
+top: 18%;
+left: 23%;
+color: white;
+border: none;
+font-size: 2.2em;
+cursor: pointer;
+}
+
+#x:hover {
+  opacity: 1;
+}
+
+.buttonfadein {
+  opacity: 0.7;
+}
+
+#line  {
+  max-width:10%;
+  max-height:10%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 13%;
+  left: 47%;
+}
+
+#book {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top:125%;
+}
+
+#booktext {
+  position: absolute;
+  top:150%;
+  left:32.5%;
+}
+
+#cards {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top:55%;
+}
+
+#cardstext {
+  position: absolute;
+  top:80%;
+  left:32.5%;
+}
+
+#logo {
+max-width:20%;
+max-height:20%;
+transform: translate(-50%, -50%);
+top:185%;
+left:50%;
+}
+
+#logotext {
+  position: absolute;
+  top:195%;
+  left:32.5%;
+  }
+
+.hide {
+  position: absolute;
+}

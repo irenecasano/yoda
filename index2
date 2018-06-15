@@ -1,0 +1,52 @@
+<html>
+<head>
+<link rel="stylesheet" href="style.21.03.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+
+
+<h2> <a href="#work" id="work"> work </a> </h2>
+<h2> <a href="#moodboards" id="moodboards"> moodboards </a> </h2>
+
+<button onclick="topFunction()" id="button" title="top"> &#9709 </button>
+
+<img class="resize3" src="https://drive.google.com/uc?id=1EjueS4p--RQlEQHg5o-vju0l6sZG6tON">
+</a>
+</head>
+<body>
+
+  <div id="spinner"></div>
+  <div id="spinner2"></div>
+  <div id="spinner3"></div>
+  <div id="frame"></div>
+
+
+<script type="text/javascript">
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+        document.getElementById("button").style.display = "block";
+    } else {
+        document.getElementById("button").style.display = "none";
+    }
+}
+
+function topFunction() {
+    document.body.scrollTop = 0; // Safari
+    document.documentElement.scrollTop = 0; // Chrome, Firefox, IE and Opera
+}
+</script>
+
+<script language="javascript">
+window.onload = function() {hideloader()};
+function hideloader() {
+document.getElementById("spinner").style.display = "none";
+document.getElementById("spinner2").style.display = "none";
+document.getElementById("spinner3").style.display = "none";
+}
+
+</script>
+
+</body>
+
+</html>

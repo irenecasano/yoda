@@ -1,37 +1,44 @@
 <html>
 <head>
 <link rel="stylesheet" href="style.21.03.css">
-<link rel="stylesheet" href="home.css">
-<link rel="stylesheet" href="animate.css">
+<link rel="stylesheet" href="about.css">
 <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
-<script type="text/javascript" src="script.js"></script>
 <script src="jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
 <script src="wow.min.js"></script>
               <script>
               new WOW().init();
               </script>
 
-<img id="sea" class="fadeout" src="https://drive.google.com/uc?id=19vUmftIvJpMShPLX79DFP83e5_R60oL0">
-<img id="shell" class="wow fadeInUp" src="https://drive.google.com/uc?id=1VTJ0hN1yZSN2rJaiO14oUDHL4vM7I81i">
-<img id="road" class="wow fadeInUp" src="https://drive.google.com/uc?id=1dcQfLXH2OppmhZu6T8cmqqp3ieouMTYS">
+
 <a href="about.html"> <img id="about" class="fadeout" src="https://drive.google.com/uc?id=141MpC-2CK1qrlSGqw3Dy-lNvnU_1-KUj"> </a>
 <a href="work.html"> <img id="work" class="fadeout" src="https://drive.google.com/uc?id=1fXunjl6aIqrRB_h8cBTa8MOIH8nNFx1f"> </a>
 <a href="index.html"> <img id="irene" class="fadeout" src="https://drive.google.com/uc?id=1J0Y9tm-XqCJKLNnjG-L1afZGCGDIy8v5"> </a>
-<img id="quote" class="fadeout" src="https://drive.google.com/uc?id=1cGhL-WBw0drOApJ_maie1EEXshJDNhmh">
-<img id="pen" class="fadeout" src="https://drive.google.com/uc?id=1OSzAXUhRkF9gyxBNPHHR5tOUHIYUIB3k">
-<img id="pen2" class="wow fadeInUp" src="ihttps://drive.google.com/uc?id=1PkCwKiLnX4PvClvhK15jcw2U-M53UOp9">
-<img id="cloud" class="wow fadeInUp" src="https://drive.google.com/uc?id=1oq83k-6OKVUMqHgxEXupqEEMk1yrXd9-">
-
-<p id="welcome" class="wow fadeInUp"> WELCOME. I'M IRENE <p>
+<img id="face" class="fadeout" src="https://drive.google.com/uc?id=1bWBAYcMNxwub1KMv6ARrrOvtl8TnBi0H">
+<img id="line2" class="fadeout" src="https://drive.google.com/uc?id=1qP-N8qNj86KQbv3xyLSlNPebgb8lkNwY">
+<img id="genova" class="wow fadeInUp" src="https://drive.google.com/uc?id=1ucbDCc62CoRPWQAKrK3AR8N2xerZYRZQ">
 
 </head>
-<body>
 
+<body>
 
   <div id="spinner1" class="spinner"></div>
   <div id="spinner2" class="spinner"></div>
   <div id="spinner3" class="spinner"></div>
 
+
+<p id="description" class="fadeout"> 20 y/o girl born in Genoa, Italy. Communication design student in Milan.<br>
+I'm passionate about illustration and editorial design. Cat lover (but I dig dogs too). <br>
+Interested in literature, sustainable design and art. I love visiting art exhibitions, <br>
+star wars movies, welsh corgis and white chocolate. My hobbies include (apart from <br>
+laying in my bed with my cats) drawing, listening to my favourite artists and reading novels. <br>
+If you're bored, <a href="work.html"> here </a> you can check out some of my work (there's not much yet so it won't <br>
+take too long, I promise). And <a href="https://www.youtube.com/watch?v=-2hdh-ZK4dw" target="_blank"> here </a> is a short compilation of corgi videos. You're welcome. </p>
+
+<button onclick="topFunction()" id="button" title="top"> &#9709 </button>
+
+
+</head>
 
 
 <button onclick="topFunction()" id="button" title="top"> &#9709 </button>
@@ -52,8 +59,6 @@ function topFunction() {
     document.documentElement.scrollTop = 0; // Chrome, Firefox, IE and Opera
 }
 </script>
-
-
 
 <script language="javascript">
 window.onload = function() {hideloader()};
@@ -77,7 +82,17 @@ $(window).on("load", function() {
 
 </script>
 
+<script language="javascript">
+var x = e.pageX - this.offsetLeft;
+   var y = e.pageY
 
+if (var x = 50)
+   $("#quote").removeClass("popup")
+    $("#quote").addClass("fadein");
+}
+    else $("#quote").removeClass("fadein")
+     $("#quote").addClass("popup");
+</script>
 
 </body>
 

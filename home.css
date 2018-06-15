@@ -1,0 +1,74 @@
+
+.hide {
+  opacity:100%;
+  }
+
+
+#road {
+  max-width:57%;
+  max-height:57%;
+  position: absolute;
+  top:130%;
+  left: 18%;
+  transition: 1s;
+}
+
+#shell {
+  max-width:50%;
+  max-height:50%;
+  position: absolute;
+  top:140%;
+  left: 60%;
+  transition: 1s;
+}
+
+
+
+#sea {
+  max-width:60%;
+  max-height:60%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top:55%;
+  left: 50%;
+}
+
+#welcome {
+  position: absolute;
+  left: 47%;
+  top: 105%;
+}
+
+#quote {
+  max-width:17%;
+  max-height:17%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top:87%;
+  left:70%;
+}
+
+#pen {
+  max-width:10%;
+  max-height:10%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top:32%;
+  left:31%;
+}
+
+#pen2 {
+  max-width:10%;
+  max-height:10%;
+  position: absolute;
+  top:141%;
+  left:66%;
+}
+
+#cloud {
+  max-width:10%;
+  max-height:10%;
+  position: absolute;
+  top:148%;
+  left:48%;
+}
