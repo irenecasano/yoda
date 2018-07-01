@@ -5,9 +5,8 @@ body {
 .foto {
   max-width:50%;
   max-height:50%;
-  transform: translate(-50%, -50%);
   position: absolute;
-  left: 50%;
+  left: 32.5%;
 }
 
 .foto:hover {
@@ -53,9 +52,8 @@ cursor: pointer;
 }
 
 #book {
-  transform: translate(-50%, -50%);
   position: absolute;
-  top:125%;
+  top:100%;
 }
 
 #booktext {
@@ -65,9 +63,8 @@ cursor: pointer;
 }
 
 #cards {
-  transform: translate(-50%, -50%);
   position: absolute;
-  top:55%;
+  top:30%;
 }
 
 #cardstext {
@@ -79,9 +76,8 @@ cursor: pointer;
 #logo {
 max-width:20%;
 max-height:20%;
-transform: translate(-50%, -50%);
-top:185%;
-left:50%;
+top:178%;
+left:32.5%;
 }
 
 #logotext {
