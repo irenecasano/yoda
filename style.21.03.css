@@ -8,7 +8,7 @@
 
 
 a {
-  color: dimgray;
+  color: black;
   text-decoration: none;
   font-weight: normal;
 }
@@ -38,8 +38,8 @@ opacity: 0;
 }
 
 #about {
-  max-width:10%;
-  max-height:10%;
+  max-width:10.5%;
+  max-height:10.5%;
   transform: translate(-50%, -50%);
   position: absolute;
   top:10%;
@@ -53,8 +53,23 @@ opacity: 0;
     transform: translate(-50%, -50%);
     position: absolute;
     top:10%;
-    left:67%;
+    left:68%;
     transition: 1s;
+    }
+
+    #contacts {
+      max-width:16.5%;
+      max-height:16.5%;
+      transform: translate(-50%, -50%);
+      position: absolute;
+      top:10%;
+      left:44%;
+      transition: 1s;
+      }
+
+      #contacts:hover {
+      top:11%;
+      transition: 1s;
     }
 
     #work:hover {

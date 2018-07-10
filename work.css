@@ -48,8 +48,10 @@ cursor: pointer;
   transform: translate(-50%, -50%);
   position: absolute;
   top: 13%;
-  left: 67%;
+  left: 68%;
 }
+
+
 
 #book {
   position: absolute;

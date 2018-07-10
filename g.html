@@ -1,0 +1,120 @@
+<html>
+<head>
+  <script src="jquery-3.3.1.min.js"></script>
+
+</head>
+
+<div id="quadratone">
+    <div id="q2" class="quadrato q2off"></div>
+  <div id="q1" class="quadrato q1off"></div>
+
+  </div>
+<body>
+<style>
+
+.quadrato {
+  position: absolute;
+  transform: translate(-50%,-50%);
+  height: 50px;
+  width: 50px;
+  transition: 1s;
+}
+
+.ruotami {
+  position: absolute;
+}
+
+#q1 {
+  background-color: red;
+}
+
+#q2 {
+  background-color: blue;
+  top: 50%;
+  left: 70%;
+}
+
+.q2off {
+  background-color: blue;
+  opacity: 0;
+
+}
+
+.q2on {
+opacity: 1;
+}
+
+.q1off {
+  top: 50%;
+  left: 50%;
+}
+
+.q1on {
+  top: 50%;
+  left: 30%;
+}
+
+.quadrato {
+  position: absolute;
+  transform: translate(-50%,-50%);
+  height: 50px;
+  width: 50px;
+}
+
+#quadratone {
+  position: absolute;
+  transform: translate(-50%,-50%);
+  height: 300px;
+  width: 300px;
+  top: 50%;
+  left: 50%;
+}
+
+  @keyframes ruota {
+    from {transform: translate(-50%, -50%) rotate(0deg);}
+    to {transform: translate(-50%, -50%) rotate(360deg);}
+  }
+
+  .rotation {
+    animation: ruota 1s 4;
+  }
+
+
+</style>
+<script>
+
+function sdoppia () {
+  $("#q1").removeClass("q1off");
+    $("#q1").addClass("q1on");
+    $("#q2").removeClass("q2off");
+      $("#q2").addClass("q2on");
+}
+
+
+
+function back () {
+    $("#q1").removeClass("ruotami");
+    $("#q1").removeClass("q1on");
+    $("#q1").addClass("q1off");
+      $("#q2").removeClass("ruotami");
+    $("#q2").removeClass("q2on");
+      $("#q2").addClass("q2off");
+}
+
+
+
+function ruota () {
+  $("#quadratone").addClass("rotation");
+  $("#q1").addClass("ruotami");
+  $("#q2").addClass("ruotami");
+
+}
+
+$("#q1").click(sdoppia);
+$("#q2").click(ruota);
+$(".ruotami").click(back);
+
+
+</script>
+</body>
+</html>

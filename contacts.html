@@ -1,0 +1,79 @@
+<html>
+<head>
+<link rel="stylesheet" href="style.21.03.css">
+<link rel="stylesheet" href="contacts.css">
+<link rel="stylesheet" href="animate.css">
+<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+<script type="text/javascript" src="script.js"></script>
+<script src="jquery-3.3.1.min.js"></script>
+<script src="wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+
+<img id="line" class="fadeout hide" src="r.png"></img>
+<img id="shell" class="fadeout"  src="https://drive.google.com/uc?id=1VTJ0hN1yZSN2rJaiO14oUDHL4vM7I81i">
+<a href="contacts.html"> <img id="contacts" class="fadeout" src="c.png"></a>
+<a href="about.html"> <img id="about" class="fadeout" src="https://drive.google.com/uc?id=141MpC-2CK1qrlSGqw3Dy-lNvnU_1-KUj"> </a>
+<a href="work.html"> <img id="work" class="fadeout" src="https://drive.google.com/uc?id=1fXunjl6aIqrRB_h8cBTa8MOIH8nNFx1f"> </a>
+<a href="index.html"> <img id="irene" class="fadeout" src="https://drive.google.com/uc?id=1J0Y9tm-XqCJKLNnjG-L1afZGCGDIy8v5"> </a>
+<img id="corsivo" class="fadeout" src="t2.png"></img>
+<p id="mail" class="fadeout"> YOU CAN E-MAIL ME AT <br>
+irenecasano@ymail.com </p>
+<p id="behance" class="fadeout" > AND VISIT MY <a href="https://www.behance.net/irenecasan8819" target="_blank"> BEHANCE </a> </p>
+
+</head>
+<body>
+
+
+    <div id="spinner1" class="spinner"></div>
+    <div id="spinner2" class="spinner"></div>
+    <div id="spinner3" class="spinner"></div>
+
+
+
+  <button onclick="topFunction()" id="button" title="top"> &#9709 </button>
+
+  <script type="text/javascript">
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+      if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+          document.getElementById("button").style.display = "block";
+      } else {
+          document.getElementById("button").style.display = "none";
+      }
+  }
+
+  function topFunction() {
+      document.body.scrollTop = 0; // Safari
+      document.documentElement.scrollTop = 0; // Chrome, Firefox, IE and Opera
+  }
+  </script>
+
+
+
+  <script language="javascript">
+  window.onload = function() {hideloader()};
+  function hideloader() {
+
+  document.getElementById("spinner1").style.display = "none";
+  document.getElementById("spinner2").style.display = "none";
+  document.getElementById("spinner3").style.display = "none";
+  }
+
+  </script>
+
+  <script language="javascript">
+
+  $(window).on("load", function() {
+    $("img").removeClass("fadeout")
+     $("img").addClass("fadein");
+     $("p").removeClass("fadeout")
+      $("p").addClass("fadein");
+     });
+
+  </script>
+
+</body>
+</html>

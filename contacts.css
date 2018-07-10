@@ -1,0 +1,46 @@
+body {
+  height: 125%;
+}
+
+#corsivo {
+max-width:37%;
+max-height:37%;
+transform: translate(-50%, -50%);
+position: absolute;
+top:30%;
+left: 50%;
+}
+
+#behance {
+position: absolute;
+transform: translate(-50%, -50%);
+left: 50%;
+top: 55%;
+}
+
+#mail {
+position: absolute;
+transform: translate(-50%, -50%);
+left: 50%;
+top: 42%;
+}
+
+#shell {
+  max-width:50%;
+  max-height:50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top:93%;
+  left: 50%;
+  transition: 1s;
+}
+
+
+#line  {
+  max-width:16.5%;
+  max-height:16.5%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 13%;
+  left: 44%;
+}
