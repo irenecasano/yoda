@@ -2,20 +2,20 @@ body {
   height: 125%;
 }
 
-#corsivo {
-max-width:37%;
-max-height:37%;
-transform: translate(-50%, -50%);
+#if {
 position: absolute;
-top:30%;
+transform: translate(-50%, -50%);
 left: 50%;
+top: 28%;
+font-size: 1.2em;
+color: #e7332d;
 }
 
 #behance {
 position: absolute;
 transform: translate(-50%, -50%);
 left: 50%;
-top: 55%;
+top: 54%;
 }
 
 #mail {

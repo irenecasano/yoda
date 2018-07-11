@@ -47,6 +47,7 @@
   position: absolute;
   top:32%;
   left:31%;
+  animation: penna 5s linear infinite;
 }
 
 #pen2 {
@@ -62,5 +63,24 @@
   max-height:12%;
   position: absolute;
   top:145%;
-  left:65%;
+  left:0%;
+  animation: nuvola 18s linear infinite;
+}
+
+
+@keyframes nuvola {
+  from {top:145%; left: 20%}
+  to {top:145%; left: 75%}
+
+}
+
+
+@keyframes penna {
+  0% {transform: translate(-50%, -50%) rotate(0deg); left: 31%;}
+  25% {transform:translate(-50%, -50%) rotate(5deg); left: 32%;}
+  50% {transform:translate(-50%, -50%) rotate(0deg); left: 33%;}
+  75% {transform:translate(-50%, -50%) rotate(-5deg); left: 32%;}
+  100% {transform:translate(-50%, -50%) rotate(0deg); left: 31%;}
+
+
 }
