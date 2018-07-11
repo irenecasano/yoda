@@ -1,5 +1,5 @@
 body {
-  height: 218%;
+  height: 225%;
 }
 
 .foto {
@@ -55,39 +55,46 @@ cursor: pointer;
 
 #book {
   position: absolute;
-  top:100%;
+  top:107%;
 }
 
 #booktext {
   position: absolute;
-  top:150%;
+  top:157%;
   left:32.5%;
 }
 
 #cards {
   position: absolute;
-  top:30%;
+  top:37%;
 }
 
 #cardstext {
   position: absolute;
-  top:80%;
+  top:87%;
   left:32.5%;
 }
 
 #logo {
 max-width:20%;
 max-height:20%;
-top:178%;
+top:185%;
 left:32.5%;
 }
 
 #logotext {
   position: absolute;
-  top:195%;
+  top:202%;
   left:32.5%;
   }
 
+#des {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  color: dimgray;
+  top:24%;
+  left:50%;
+    }
 
 .hide {
   position: absolute;

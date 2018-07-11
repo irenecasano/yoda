@@ -2,53 +2,6 @@ body {
   height: 184%;
 }
 
-#r1 {
-  max-width:5%;
-  max-height:5%;
-  position: absolute;
-  top: 98%;
-  left: 85%;
-  transform: translate(-50%, -50%);
-  animation: r1 1s linear infinite;
-}
-
-#r2 {
-  max-width:3%;
-  max-height:3%;
-  position: absolute;
-  top: 107%;
-  left: 89%;
-  transform: translate(-50%, -50%);
-  animation: r2 1s linear infinite;
-}
-
-#r3 {
-  max-width:3%;
-  max-height:3%;
-  position: absolute;
-  top: 100%;
-  left: 88%;
-  transform: translate(-50%, -50%) rotate(-10deg);
-  animation: r3 1s linear infinite;
-}
-
-@keyframes r1 {
-  0% {transform: translate(-50%, -50%) rotate(0deg); top: 98%;}
-  50% {transform:translate(-50%, -50%) rotate(5deg); top: 97%;}
-  100% {transform:translate(-50%, -50%) rotate(0deg); top: 96%;}
-}
-
-@keyframes r2 {
-  0% {transform: translate(-50%, -50%) rotate(0deg); left: 89%;}
-  50% {transform:translate(-50%, -50%) rotate(5deg); left: 89.5%;}
-  100% {transform:translate(-50%, -50%) rotate(0deg); left: 90%;}
-}
-
-@keyframes r3 {
-  0% {transform: translate(-50%, -50%) rotate(-10deg); left: 88%; top:100%;}
-  50% {transform:translate(-50%, -50%) rotate(-5deg); left: 88.5%; top:99.5%;}
-  100% {transform:translate(-50%, -50%) rotate(-10deg); left: 89%; top:99%;}
-}
 
 
 #face {
